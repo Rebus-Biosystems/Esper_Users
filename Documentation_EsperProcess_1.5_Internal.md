@@ -87,7 +87,7 @@ This release will be able to address two different data formats from Esper, old 
     │   ├── Tables                # Contains all tables after stitching and spot assignment
 
 ## 2.2 Place the 'GeneTable.csv' in the root folder
-The Esper Process software will look for the ''' GeneTable.csv ''' file in the root folder to fill in the gene names as well as the cycles/lasers associated with each gene. 
+The Esper Process software will look for the ``` GeneTable.csv ``` file in the root folder to fill in the gene names as well as the cycles/lasers associated with each gene. 
 
 ** **Note that Windows does not recognize two filenames that identicial in lower case but given in a combination of lower/upper case as separate files and will mix them up. If the genem names are in a way that the same name repeats, better distinguish them using other annotation forms such as numbers or underscore sign ('_')** **
 
