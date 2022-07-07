@@ -86,6 +86,8 @@ This release will be able to address two different data formats from Esper, old 
     │   ├── Stitched_images       # Contains all stitched images, DAPI
     │   ├── Tables                # Contains all tables after stitching and spot assignment
 
+## Place the GeneTable.csv in the root folder
+
 ## 3. Esper process 1.5 philosophy 
 <img src="/Installation Guides/EsperProcess1.5_philisophy.jpg" alt="Alt text" title="Optional title">
 
