@@ -42,7 +42,7 @@ python -m venv esper_15_env
 
 ````
 
-## 2. Folder naming convention and data formats
+## 2.1. Folder naming convention and data formats
 This release will be able to address two different data formats from Esper, old format and the new format. In the old format, all raw data were stored in folders titled "CycXX" where as the new data format contains all data stored using the actual gene name. It is required to make sure the data folders are aligned with the following format: 
     
     Old Esper Data Format: 
@@ -86,7 +86,20 @@ This release will be able to address two different data formats from Esper, old 
     │   ├── Stitched_images       # Contains all stitched images, DAPI
     │   ├── Tables                # Contains all tables after stitching and spot assignment
 
-## Place the GeneTable.csv in the root folder
+## 2.2 Place the GeneTable.csv in the root folder
+The Esper Process software will look for the GeneTable.csv file to fill in the gene names as well as the cycles/lasers associated with each gene. 
+
+No.	L595	L647	L532
+1	A	B	C
+2	D	E	F
+3	G	H	I
+4	J	K	L
+5	M	N	O
+6	P	Q	R
+7	S	T	U
+8	V	W	X
+9	Y	Z	ZZ
+
 
 ## 3. Esper process 1.5 philosophy 
 <img src="/Installation Guides/EsperProcess1.5_philisophy.jpg" alt="Alt text" title="Optional title">
