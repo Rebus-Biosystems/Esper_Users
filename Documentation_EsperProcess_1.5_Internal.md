@@ -89,7 +89,7 @@ This release will be able to address two different data formats from Esper, old 
 ## 2.2 Place the GeneTable.csv in the root folder
 The Esper Process software will look for the GeneTable.csv file to fill in the gene names as well as the cycles/lasers associated with each gene. 
 
-** Note that Windows does not recognize two filenames that identicial in lower case but given in a combination of lower/upper case as separate files and will mix them up. If the genem names are in a way that the same name repeats, better distinguish them using other annotation forms such as numbers or underscore sign ('_') **
+** **Note that Windows does not recognize two filenames that identicial in lower case but given in a combination of lower/upper case as separate files and will mix them up. If the genem names are in a way that the same name repeats, better distinguish them using other annotation forms such as numbers or underscore sign ('_')** **
 
 The following table is an example GeneTable.csv file. The colum names indicate the cycle number, laser channel. The first column will identify the cycle number. 
 
